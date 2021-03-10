@@ -1,0 +1,10 @@
+,Feature,Coefficient
+0,funding_rounds,0.500586568214665
+1,cat,0.495969670032928
+2,avg_time_bw_rounds_float,0.34238124689717764
+3,investor_count,0.26627406416731514
+4,homepage_url_new,0.21521988891827373
+5,funding_total_usd,0.15881632298997486
+6,avg_raised_usd,0.13693812180504464
+7,region,-0.02856926625536305
+8,time_bw_first_rounds_float,-0.07661213019033292

@@ -1,0 +1,107 @@
+<html>
+	<style>
+		body {font-family: Arial, Helvetica, sans-serif;
+		background:url("https://www.netpremacy.com/wp-content/uploads/2018/09/Background-website-01.jpg	");
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+		}
+		* {box-sizing: border-box;}
+
+		input[type=text], select, textarea {
+		    width: 100%;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-top: 6px;
+			margin-bottom: 6px;
+			resize: vertical;
+		}
+
+		input[type=submit] {
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+
+		.container {
+		border-radius: 5px;
+		background-color: #f2f2f2;
+		padding: 20px;
+		width: 30%;
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		}
+		label{
+		font-size: small
+		}
+		h3{
+		text-align: center;
+    	font-family: Arial, Helvetica, sans-serif;
+		}
+
+
+	</style>
+
+	<body>
+      <h3>Startup Assessment App</h3>
+
+  <div class="container">
+		  <form action="/result" method="POST">
+      		<label for="age">Total Funding (USD)</label>
+      		<input type="text" id="age" name="age">
+			  <br>
+      		<label for="FR">Funding Rounds </label>
+      		<input type="text" id="FR" name="FR">
+			  <br>
+			  <label for="time_bet_FR">Time Between First Round</label>
+			  <input type="text" id="time_bet_FR" name="time_bet_FR">
+			  <br>
+			  <label for="avg_raised_USD">Avg Raised USD</label>
+			  <input type="text" id="avg_raised_USD" name="avg_raised_USD">
+			  <br>
+			  <label for="time_bet_rounds">Avg Time Between Rounds</label>
+			  <input type="text" id="time_bet_rounds" name="time_bet_rounds">
+			  <br>
+			  <label for="invest_count">Investor Counts</label>
+			  <input type="text" id="invest_count" name="invest_count">
+			  <br>
+			  <label for="w_class">Type of Industry</label>
+			  <select id="w_class" name="w_class">
+				<option value="0">Biotech</option>
+				<option value="1">Healthcare</option>
+				<option value="2">Medical-devices</option>
+				<option value="3">Pharma</option>
+			  </select>
+			  <br>
+			  <label for="edu">Regions</label>
+			  <select id="edu" name="edu">
+				<option value="0">Midwest</option>
+				<option value="1">Northeast</option>
+				<option value="2">South</option>
+				<option value="3">West</option>
+			  </select>
+			  <br>
+			  <label for="martial_stat">Homepage URL</label>
+			  <select id="martial_stat" name="martial_stat">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			  </select>
+			  <br>
+			  <input type="submit" value="Submit">
+    </form>
+	  </div>
+
+  </body>
+  </html>

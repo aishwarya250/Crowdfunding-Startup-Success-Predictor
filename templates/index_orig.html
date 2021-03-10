@@ -1,0 +1,52 @@
+
+<html>
+<body>
+    <h3>Income Prediction Form</h3>
+
+<div>
+  <form action="/result" method="POST">
+    <label for="age">Total Funding (USD)</label>
+    <input type="text" id="age" name="age">
+	  <br>
+    <label for="c_gain">Funding Rounds </label>
+    <input type="text" id="c_gain" name="c_gain">
+    <br>
+	   <label for="hours_per_week">Time Between First Round</label>
+    <input type="text" id="hours_per_week" name="hours_per_week">btw:[1-99]
+    <br>
+	   <label for="hours_per_week">Avg Raised USD</label>
+    <input type="text" id="hours_per_week1" name="hours_per_week1">btw:[1-99]
+    <br>
+	   <label for="hours_per_week">Avg Time Between Rounds</label>
+    <input type="text" id="hours_per_week2" name="hours_per_week2">btw:[1-99]
+    <br>
+    <label for="c_loss">Investor Counts</label>
+    <input type="text" id="c_loss" name="c_loss">btw:[0-4356]
+    <br>
+    <label for="w_class">Type of Industry</label>
+    <select id="w_class" name="w_class">
+      <option value="0">Biotech</option>
+      <option value="1">Healthcare</option>
+      <option value="2">Medical-devices</option>
+      <option value="3">Pharma</option>
+    </select>
+    <br>
+    <label for="edu">Regions</label>
+    <select id="edu" name="edu">
+      <option value="0">Midwest</option>
+      <option value="1">Northeast</option>
+      <option value="2">South</option>
+      <option value="3">West</option>
+    </select>
+    <br>
+    <label for="martial_stat">Homepage URL</label>
+    <select id="martial_stat" name="martial_stat">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
