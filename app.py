@@ -19,6 +19,7 @@ def ValuePredictor(to_predict_list):
     # reshapping the input in the shape according to the featur columns
     to_predict = np.array(to_predict_list).reshape(1, 9)
     # importing the model and standard scaler from the pickel file
+
     std_scl = pickle.load(open("scaler_sel.pkl", "rb"))
     final_ar = std_scl.transform(to_predict)
     loaded_model = pickle.load(open("lr_reg.pkl", "rb"))
@@ -46,11 +47,11 @@ def result():
         # odds = np.exp(logodds)
         # print(odds)
         # prob = odds / (1 + odds)
-        # prob[0]
+        # prob[0]+
         return render_template("result.html", prediction=success)
 
 
 if __name__ == '__main__':
     # load_model()  # load model at the beginning once only
     app.debug = True
-    app.run(host='127.0.0.1', port=8081)
+    app.run(host='0.0.0.0', port=5000)
