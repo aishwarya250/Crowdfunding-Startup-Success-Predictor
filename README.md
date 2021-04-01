@@ -1,6 +1,6 @@
-# Startup Assessment Web Application
+# Startup Success Web Application
 
-Our objective is to help Redcrow (vendor for whom prototype was built) utilize predictive models to assess the success or failure of startup. We have built a Minimum Viable Project which is a web application built in Flask and deployed with docker on AWS EC2 instance.  The idea is to take as input the feature values for the startup company under assessment and predict the success probability on logistic regression model in the background. We also provide a dashboard that visualizes the data, business insights and feature importance on top of which the model was derived. 
+Our objective is to help Redcrow (vendor for whom prototype was built) utilize predictive models to assess the success or failure of startup. We have built a Viable Project which is a web application built in Flask and deployed with docker on AWS EC2 instance.  The idea is to take as input the feature values for the startup company under assessment and predict the success probability on logistic regression model in the background. We also provide a dashboard that visualizes the data, business insights and feature importance on top of which the model was derived. 
 
 The data for this project is taken from,
 https://www.kaggle.com/mauriciocap/crunchbase2013
@@ -25,7 +25,7 @@ Due to its interpretability and ability to quantitatively translate the inputs t
 
 The entire workflow is shown below,
 
-![workflow](Demo/wf.png)
+![workflow](wf.png)
 
 ### Install
 
