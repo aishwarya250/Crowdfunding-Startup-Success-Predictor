@@ -1,7 +1,5 @@
 # Startup Success Web Application
 
-Our objective is to help Redcrow (vendor for whom prototype was built) utilize predictive models to assess the success or failure of startup. We have built a Viable Project which is a web application built in Flask and deployed with docker on AWS EC2 instance.  The idea is to take as input the feature values for the startup company under assessment and predict the success probability on logistic regression model in the background. We also provide a dashboard that visualizes the data, business insights and feature importance on top of which the model was derived. 
-
 The data for this project is taken from,
 https://www.kaggle.com/mauriciocap/crunchbase2013
 
@@ -18,10 +16,6 @@ The main aim of the project was to give the probability of success of the startu
 7) Type of Industry (with Healthcare domain)
 8) Regions (In USA)
 9) Homepage URL (existing or not)
-
-We applied various classification algorithms, and we found that tree-based models like XGBoost as well as Logistic Regression performed the best.
-
-Due to its interpretability and ability to quantitatively translate the inputs to the output, we deployed the Logistic Regression model. The parameters which compared different models were accuracy, AUC and f-beta score . In the fbeta score the extra emphasis was on recall because in the application of venture capital investments (the intended use case for this model), it is far more important to catch any potential "unicorns" even at the expense of investing in a few "duds".
 
 The entire workflow is shown below,
 
@@ -53,18 +47,18 @@ Also, you need to have an account on Amazon Web Service [AWS](https://aws.amazon
 There are two main notebooks, one is the cleaning notebook, where the data is cleaned and prepared for modeling and the other is the modeling notebook where the ML models and the model performance are compared,
 
 ```bash
-Data_Cleaning.ipynb
+Part-1 Data_Cleaning.ipynb
 ```  
 and
 ```bash
-Data_Modelling.ipynb
+Part-2 Data_Modelling.ipynb
 ```
 Web app folder contains the flask application and the Docker folder contain the docker file and requirements.txt file.
 
 ### Results 
 Here is the web application which takes the parameter and tells us the prediction probability and the factors on which it calculates is shown in the dashboard.
 
-![webapplication](Demo/webapp.gif)
+![webapplication](webapp.gif)
 
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
