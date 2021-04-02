@@ -58,7 +58,8 @@ Web app folder contains the flask application and the Docker folder contain the 
 ### Results 
 Here is the web application which takes the parameter and tells us the prediction probability and the factors on which it calculates is shown in the dashboard.
 
-![webapplication](webapp.gif)
+![webapplication](https://github.com/aishwarya250/Startup-Success-Predictor/blob/main/Demo/1.png)
+![webapplication](https://github.com/aishwarya250/Startup-Success-Predictor/blob/main/Demo/2.png)
 
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
