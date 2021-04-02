@@ -7,6 +7,8 @@ AWS Deployment-
 Startup Success Predictor:
 http://ec2-3-16-188-11.us-east-2.compute.amazonaws.com:5000/
 
+Data.Viz https://public.tableau.com/profile/aishwarya.bansode#!/vizhome/Healthcarecrowdfunding/Dashboard2 
+
 ### About
 
 The main aim of the project was to give the probability of success of the startup. we found the companies within the last decade which had raised more than one round of funding. Status of the company which includes IPO, Acquired, Closed, Operating was changed to success and failure. After tunning the logistic regression model, the model was deployed on a flask application which was dockerized and hosted on AWS EC2 instance. With the thousands of companies from different domains, we considered one of them i.e Healthcare industries. we considered the following features for the prediction,
