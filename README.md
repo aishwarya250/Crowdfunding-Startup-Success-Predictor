@@ -3,6 +3,10 @@
 The data for this project is taken from,
 https://www.kaggle.com/mauriciocap/crunchbase2013
 
+AWS Deployment-
+Startup Success Predictor
+http://ec2-3-16-188-11.us-east-2.compute.amazonaws.com:5000/
+
 ### About
 
 The main aim of the project was to give the probability of success of the startup. we found the companies within the last decade which had raised more than one round of funding. Status of the company which includes IPO, Acquired, Closed, Operating was changed to success and failure. After tunning the logistic regression model, the model was deployed on a flask application which was dockerized and hosted on AWS EC2 instance. With the thousands of companies from different domains, we considered only Healthcare industries as our area of focus was the healthcare domain. we considered the following features for the prediction,
