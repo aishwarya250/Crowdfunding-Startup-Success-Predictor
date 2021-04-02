@@ -53,11 +53,11 @@ Also, you need to have an account on Amazon Web Service [AWS](https://aws.amazon
 There are two main notebooks, one is the cleaning notebook, where the data is cleaned and prepared for modeling and the other is the modeling notebook where the ML models and the model performance are compared,
 
 ```bash
-Part-1 Data_Cleaning.ipynb
+Data_Cleaning1.ipynb
 ```  
 and
 ```bash
-Part-2 Data_Modelling.ipynb
+Data_Modelling2.ipynb
 ```
 Web app folder contains the flask application and the Docker folder contain the docker file and requirements.txt file.
 
