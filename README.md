@@ -60,6 +60,7 @@ Here is the web application which takes the parameter and tells us the predictio
 
 ![webapplication](https://github.com/aishwarya250/Startup-Success-Predictor/blob/main/Demo/1.png)
 ![webapplication](https://github.com/aishwarya250/Startup-Success-Predictor/blob/main/Demo/2.png)
+![webapplication](https://github.com/aishwarya250/Startup-Success-Predictor/blob/main/Demo/3.png)
 
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
