@@ -39,7 +39,6 @@ This project requires **Python 3** and the following Python libraries installed:
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [pandas](https://pandas.org/)
-- [nltk](https://nltk.org/)
 - [Matplotlib](https://matplotlib.org/)
 
 Make sure you have [Jupyter Notebook](http://ipython.org/notebook.html) installed.
